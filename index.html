@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Responsive.css">
+</head>
+<body>
+     <div class="header" id="change">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html" target="_blank" rel="noopener noreferrer"><img src="images/logo.png" alt="LOGO" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <a href="account.html" target="_blank" rel="noopener noreferrer"><li>Accounts</li></a>
+                    </ul>
+                </nav>
+
+                <img src="images/moon.png" alt="moon mode" id="icon" width="25px" height="25px">
+
+                <a href="cart.html" target="_blank" rel="noopener noreferrer"><img class="cart" src="images/cart.png" alt="" width="30px" height="30px"></a>
+                <img class="menu-icon" src="images/menu.png" alt="" onclick="menutoggle()">
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Success isn't all about greatness .It's all about consistency and hardwork. Greatnes
+                        <br>definetly come if you work hard my friend
+                    </p>
+                    <a href="" class="btn">Explore Now &#x2192</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/img1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--the header section is finished so, now i am creating the featured categorized section-->
+
+
+    <div class="small-container">
+        <div class="categories">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/cloth 1.jpeg" alt="cloth-model" height="470px" width="220px">
+                </div>
+                <div class="col-3"><img src="images/shoe 2.jpeg" alt="shoe image" height="470px" width="220px"></div>
+                <div class="col-3"><img src="images/cloth 3.jpeg" alt="cloth-model" height="470px" width="220px"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- i finished the featured categorie section so now  i am creting a featured products-->
+    <!--By using same classes row  col everytime it will make easy media query easy and also use flex-basis it also easy to make mediaquery -->
+
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="singleproduct.html"><img src="images/tshirt 1.avif" alt=""></a>
+                <a href="singleproduct.html">
+                    <h4>Red Printed T-shirt</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/fp-2.webp" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/fp-3.avif" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/fp4.avif" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+        <!-- this is latest products -->
+
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lt-8.webp" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/hh.webp" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/hh3.webp" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/hh4.webp" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+
+
+            </div>
+
+        </div>
+
+
+        <!--i am third time rowwww repeating-->
+
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lt-1.jpeg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/lt-2.avif" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/lt-3.avif" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/lt-4.webp" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- this is a offer section -->
+
+    <div class="offer">
+        <div class="small-container-1">
+            <div class="row">
+                <div class="col-5">
+                    <img class="image" src="images/watch1.png" alt="watch 2">
+
+                </div>
+                <div class="col-5">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color <br>tap touch
+                        display with adjustable brightness so everything is clear as can be.</small><br>
+                    <a href="" class="btn">Buy Now &#8594; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- we have finished offer section now we are going to create a testimonial section -->
+
+    
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="ear">&#8220;</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente numquam quos qui ex molestias
+                        possimus excepturi commodi id, corrupti dolorem veritatis minus assumenda modi tenetur, quia
+                        voluptas nemo atque dolores.</p>
+                    <div class="rating">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+
+                    </div>
+                    <img class="review" src="images/R-1.avif" alt="review pic">
+                    <h3>Seam Parker</h3>
+                </div>
+                <div class="col-6">
+                    <div class="ear">&#8220;</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente numquam quos qui ex molestias
+                        possimus excepturi commodi id, corrupti dolorem veritatis minus assumenda modi tenetur, quia
+                        voluptas nemo atque dolores.</p>
+                    <div class="rating">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+
+                    </div>
+                    <img class="review" src="images/r-2.avif" alt="review pic">
+                    <h3>Merra James</h3>
+
+
+                </div>
+                <div class="col-6">
+                    <div class="ear">&#8220;</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente numquam quos qui ex molestias
+                        possimus excepturi commodi id, corrupti dolorem veritatis minus assumenda modi tenetur, quia
+                        voluptas nemo atque dolores.</p>
+                    <div class="rating">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+                        <img class="star" src="images/star-solid.png" alt="" width="10px" height="10px">
+
+                    </div>
+                    <img class="review" src="images/r-3.jpeg" alt="review pic">
+                    <h3>Harley Brownes</h3>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-7"><img src="images/gg.png" alt="" width="150px" height="200px"></div>
+                <div class="col-7"><img src="images/pp1.png" alt="" width="170px" height="300px"></div>
+                <div class="col-7 pay"> <img src="images/cc.png" alt="" width="160px" height="180px"></div>
+                <div class="col-7"><img src="images/op.png" alt="" width="150px" height="300px"></div>
+                <div class="col-7"><img src="images/pp.png" alt="" width="150px" height="200px"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios Mobile Phone. </p>
+                    <div class="applogo">
+                        <img src="https://image.shutterstock.com/image-photo/image-260nw-2046711653.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img class="pal" src="images/logo.png" alt="logo" width="160px">
+                    <p>Our Purpose Is To Sustainability Benefits of Sports Accessible to the Many. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2020 - Self Prepation</p>
+        </div>
+    </div>
+
+
+    <script>
+        let a = document.getElementById("MenuItems");
+
+        a.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (a.style.maxHeight == "0px") {  // when ever we enter the menu at 800 px screeen size then height of its is 0 after that this line executes,,,,,here we are telling when ever the menuitems height is zero ,when clicked on menu then prints the hwight till 200 px
+                a.style.maxHeight = "200px";
+            }
+            else {
+                a.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+    <script>
+        let LoginForm= document.getElementById("LoginForm");
+        let RegForm= document.getElementById("RegForm");
+        let Indicator = document.getElementById("Indicator")
+    
+        function register(){
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform ="translateX(0px)";
+            Indicator.style.transform ="translateX(100px)";
+        }
+    
+        function login(){
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform ="translateX(300px)";
+            Indicator.style.transform = "translateX(0px)";
+        }
+    </script>
+</body>
+</html>
